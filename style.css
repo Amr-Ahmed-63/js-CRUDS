@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 18);
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin: 40px auto 15px;
+    text-align: center;
+}
+
+h5{
+    color: gray;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 100px auto 15px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.con label{
+    margin-right: 8px;
+    color: white;
+}
+
+.con input{
+    width: 70%;
+    margin: 40px 0px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: gray;
+    z-index: 0;
+    border: solid 2px rgb(101, 5, 5);
+    opacity: 0.9;
+    outline: none;
+}
+
+
+.pot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(101, 5, 5);
+    color: white;
+    width: 10%;
+    height: 40px;
+    border-radius: 18px;
+    transition: 0.5s;
+
+}
+td .Update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+td .Delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+
+.ptn:hover{
+    padding: 0 10px;
+    cursor: pointer;
+}
+td .Update:hover,
+td .Delete:hover{
+    padding: 0;
+    width: 55%;
+    cursor: pointer;
+}
+
+
+table{
+    border: solid white 2px;
+    color: white;
+    width: 90%;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+
+thead{
+    background-color: rgb(92, 92, 92);
+    height: 40px;
+}
+
+td{
+    text-align: center;
+}
+
+.dall{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+
+.dall:hover{
+    padding: 0;
+    width: 55%;
+    cursor: pointer;
+}
+
+.conn input{
+    width: 70%;
+    margin: 40px 0px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: gray;
+    z-index: 0;
+    border: solid 2px rgb(101, 5, 5);
+    opacity: 0.9;
+    outline: none;
+}
+
+.conn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.conn label{
+    margin-right: 8px;
+    color: white;
+}
+
+.deleteAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5;
+}
+
+
+button{
+    margin: auto;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 30%;
+    border-radius: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    width: 45%;
+}
